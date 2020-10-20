@@ -1,0 +1,36 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'four_bit_multiplexer4to1'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off
+-c 100 -o four_bit_multiplexer4to1_map.ncd four_bit_multiplexer4to1.ngd
+four_bit_multiplexer4to1.pcf 
+Target Device  : xc3s400
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Sat Aug 22 06:27:22 2020
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc3s400'.
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc3s400' is a WebPack part.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+INFO:Security:68a - user is Aryan, on host DESKTOP-IVVUKLF.

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder_isim_beh.exe" -prj "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder_beh.prj" "work.tb_carry_select_adder" 

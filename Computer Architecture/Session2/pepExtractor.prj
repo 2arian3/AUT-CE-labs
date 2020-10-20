@@ -1,0 +1,7 @@
+work	"and_gate.vhd"
+work	"four_bit_comparator.vhd"
+work	"improved_two_bit_comparator.vhd"
+work	"nor_gate.vhd"
+work	"not_gate.vhd"
+work	"or_gate.vhd"
+work	"two_bit_comparator.vhd"

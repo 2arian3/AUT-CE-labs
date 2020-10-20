@@ -1,0 +1,36 @@
+V3 19
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" 2020/08/17.11:48:37 P.20131013
+EN work/and_gate 1597768757 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/gateLevel 1597768758 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" \
+      EN work/and_gate 1597768757
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" 2020/08/17.11:56:45 P.20131013
+EN work/full_adder 1597768763 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structure 1597768764 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" \
+      EN work/full_adder 1597768763 CP half_adder CP or_gate
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" 2020/08/18.21:09:01 P.20131013
+EN work/half_adder 1597768759 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/structure 1597768760 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" \
+      EN work/half_adder 1597768759 CP xor_gate CP and_gate
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" 2020/08/17.11:48:37 P.20131013
+EN work/or_gate 1597768761 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/gateLevel 1597768762 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" \
+      EN work/or_gate 1597768761
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" 2020/08/17.11:48:37 P.20131013
+EN work/xor_gate 1597768755 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/Behavioral 1597768756 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" \
+      EN work/xor_gate 1597768755

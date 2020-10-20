@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg_isim_beh.exe -prj C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg_beh.prj work.tb_bcd2_7seg 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/mux4x1.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/DFF.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/Reg_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/Frq_dividor.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/bcd2_7seg.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture arch of entity Frq_divider [frq_divider_default]
+Compiling architecture behavioral of entity mux4x1 [mux4x1_default]
+Compiling architecture behavioral of entity DFF [dff_default]
+Compiling architecture structure of entity Reg_4bits [reg_4bits_default]
+Compiling architecture bcd2_7seg_arch of entity bcd2_7seg [bcd2_7seg_default]
+Compiling architecture behavior of entity tb_bcd2_7seg
+Time Resolution for simulation is 1ps.
+Compiled 14 VHDL Units
+Built simulation executable C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg_isim_beh.exe
+Fuse Memory Usage: 36304 KB
+Fuse CPU Usage: 874 ms

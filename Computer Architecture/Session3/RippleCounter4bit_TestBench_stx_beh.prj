@@ -1,0 +1,3 @@
+vhdl isim_temp "TFF.vhd"
+vhdl isim_temp "RiplleCounter4bit.vhd"
+vhdl isim_temp "RippleCounter4bit_TestBench.vhd"

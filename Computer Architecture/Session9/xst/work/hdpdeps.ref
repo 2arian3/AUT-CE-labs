@@ -1,0 +1,33 @@
+V3 42
+FL "C:/Users/novin/Downloads/Telegram Desktop/Session9 (2)/Session9/basic_computer.vhd" 2020/09/22.22:45:15 P.20131013
+FL "C:/Users/novin/Downloads/Telegram Desktop/Session9 (2)/Session9/CPU8bits.vhd" 2020/09/23.09:44:18 P.20131013
+FL "C:/Users/novin/Downloads/Telegram Desktop/Session9 (2)/Session9/RAM.vhd" 2020/09/21.14:04:39 P.20131013
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/BasicComputer_synthesis.vhd" 2020/09/23.09:51:04 P.20131013
+AR work/basic_computer/Structure -1 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/BasicComputer_synthesis.vhd" \
+      EN work/basic_computer 1600852900 CP GND CP FDP CP FDC CP XORCY CP MUXCY CP LUT2 \
+      CP FDCE CP FDPE CP LUT3 CP MUXF5 CP MUXF6 CP MUXF7 CP MUXF8 CP FDE CP LUT4 CP IBUF \
+      CP OBUFT CP BUFG CP INV CP LUT2_L CP LUT4_L CP LUT4_D CP LUT2_D CP LUT3_L \
+      CP LUT3_D
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd" 2020/09/23.10:02:56 P.20131013
+EN work/basic_computer 1600852900 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/basic_computer/Behavioral 1600852901 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd" \
+      EN work/basic_computer 1600852900 CP RAM CP CPU8bits
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/CPU8bits.vhd" 2020/09/23.09:44:18 P.20131013
+EN work/CPU8bits 1600852898 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/CPU8bits.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CPU8bits/CPU_ARCH 1600852899 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/CPU8bits.vhd" \
+      EN work/CPU8bits 1600852898
+FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/RAM.vhd" 2020/09/21.14:04:39 P.20131013
+EN work/RAM 1600852896 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/RAM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/RAM/Behavioral 1600852897 \
+      FL "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/RAM.vhd" \
+      EN work/RAM 1600852896

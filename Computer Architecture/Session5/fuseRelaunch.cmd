@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Aryan/Documents/University/Computer Architecture/Session5/basic_multiplier_tb_isim_beh.exe" -prj "C:/Users/Aryan/Documents/University/Computer Architecture/Session5/basic_multiplier_tb_beh.prj" "work.basic_multiplier_tb" 

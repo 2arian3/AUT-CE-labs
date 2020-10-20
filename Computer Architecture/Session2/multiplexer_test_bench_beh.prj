@@ -1,0 +1,6 @@
+vhdl work "or_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "multiplexer4to1.vhd"
+vhdl work "four_bit_multiplexer4to1.vhd"
+vhdl work "multiplexer_test_bench.vhd"

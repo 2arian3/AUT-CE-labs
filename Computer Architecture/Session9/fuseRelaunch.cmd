@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/tb_basic_computer_isim_beh.exe" -prj "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/tb_basic_computer_beh.prj" "work.tb_basic_computer" 

@@ -1,0 +1,6 @@
+vhdl work "mux4x1.vhd"
+vhdl work "DFF.vhd"
+vhdl work "Reg_4bits.vhd"
+vhdl work "Frq_dividor.vhd"
+vhdl work "bcd2_7seg.vhd"
+vhdl work "tb_bcd2_7seg.vhd"

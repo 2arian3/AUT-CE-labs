@@ -1,0 +1,10 @@
+AR xor_gate behavioral "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" sub00/vhpl06 1597768756
+EN half_adder NULL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" sub00/vhpl07 1597768759
+AR and_gate gatelevel "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" sub00/vhpl01 1597768758
+EN full_adder NULL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" sub00/vhpl02 1597768763
+EN or_gate NULL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" sub00/vhpl03 1597768761
+AR full_adder structure "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" sub00/vhpl09 1597768764
+AR half_adder structure "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" sub00/vhpl08 1597768760
+EN xor_gate NULL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" sub00/vhpl05 1597768755
+EN and_gate NULL "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" sub00/vhpl00 1597768757
+AR or_gate gatelevel "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" sub00/vhpl04 1597768762

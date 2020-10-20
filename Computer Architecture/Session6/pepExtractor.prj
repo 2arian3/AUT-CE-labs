@@ -1,0 +1,5 @@
+work	"DFF.vhd"
+work	"Frq_dividor.vhd"
+work	"Reg_4bits.vhd"
+work	"bcd2_7seg.vhd"
+work	"mux4x1.vhd"

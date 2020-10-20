@@ -1,0 +1,336 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: full_adder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "full_adder.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "full_adder"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : full_adder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd" in Library work.
+Architecture behavioral of Entity xor_gate is up to date.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd" in Library work.
+Architecture gatelevel of Entity and_gate is up to date.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd" in Library work.
+Entity <half_adder> compiled.
+Entity <half_adder> (Architecture <structure>) compiled.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd" in Library work.
+Architecture gatelevel of Entity or_gate is up to date.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd" in Library work.
+Architecture structure of Entity full_adder is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <half_adder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <xor_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <gatelevel>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <full_adder> in library <work> (Architecture <structure>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <half_adder> in library <work> (Architecture <structure>).
+Entity <half_adder> analyzed. Unit <half_adder> generated.
+
+Analyzing Entity <xor_gate> in library <work> (Architecture <behavioral>).
+Entity <xor_gate> analyzed. Unit <xor_gate> generated.
+
+Analyzing Entity <and_gate> in library <work> (Architecture <gatelevel>).
+Entity <and_gate> analyzed. Unit <and_gate> generated.
+
+Analyzing Entity <or_gate> in library <work> (Architecture <gatelevel>).
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <or_gate>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/or_gate.vhd".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xor_gate.vhd".
+    Found 1-bit xor2 for signal <C>.
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.vhd".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <half_adder>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/half_adder.vhd".
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder.vhd".
+Unit <full_adder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <full_adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block full_adder, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : full_adder.ngr
+Top Level Output File Name         : full_adder
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 2
+#      LUT3                        : 2
+# IO Buffers                       : 5
+#      IBUF                        : 3
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                        1  out of   3584     0%  
+ Number of 4 input LUTs:                  2  out of   7168     0%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    141     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.824ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 6 / 2
+-------------------------------------------------------------------------
+Delay:               7.824ns (Levels of Logic = 3)
+  Source:            i0 (PAD)
+  Destination:       Cout (PAD)
+
+  Data Path: i0 to Cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  i0_IBUF (i0_IBUF)
+     LUT3:I0->O            1   0.479   0.681  or_gate_instance0/C1 (Cout_OBUF)
+     OBUF:I->O                 4.909          Cout_OBUF (Cout)
+    ----------------------------------------
+    Total                      7.824ns (6.103ns logic, 1.721ns route)
+                                       (78.0% logic, 22.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.92 secs
+ 
+--> 
+
+Total memory usage is 4506036 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

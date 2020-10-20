@@ -1,0 +1,3 @@
+vhdl work "mux4x1.vhd"
+vhdl work "DFF.vhd"
+vhdl work "Reg_4bits.vhd"

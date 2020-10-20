@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/novin/Downloads/Telegram Desktop/Session9 (2)/Session9/basic_computer.xst" -ofn "C:/Users/novin/Downloads/Telegram Desktop/Session9 (2)/Session9/basic_computer.syr" 
+netgen -intstyle ise -ar Structure -tm basic_computer -w -dir netgen/synthesis -ofmt vhdl -sim basic_computer.ngc basic_computer_synthesis.vhd 
+xst -intstyle ise -ifn "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.xst" -ofn "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.syr" 
+xst -intstyle ise -ifn "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.xst" -ofn "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.syr" 

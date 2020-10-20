@@ -1,0 +1,5 @@
+work	"and2.vhd"
+work	"array_multiplier.vhd"
+work	"carry_look_ahead_adder.vhd"
+work	"full_adder.vhd"
+work	"half_adder.vhd"

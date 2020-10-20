@@ -1,0 +1,5 @@
+set -tmpdir "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xst/projnav.tmp"
+set -xsthdpdir "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/xst"
+elaborate
+-ifn half_adder.prj
+-ifmt mixed

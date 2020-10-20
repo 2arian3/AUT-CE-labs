@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: F:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -i -bm full_adder.bmm -p xc3s400-pq208-5 and_gate.ngc
+and_gate.ngd
+
+Reading NGO file "D:/Courses/Computer  architecture/CA
+Lab/Codes/Session1_FullAdder/and_gate.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "full_adder.bmm" ...
+
+WARNING::53 - File 'full_adder.bmm' is empty or has no BMM content.
+
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4390904 kilobytes
+
+Writing NGD file "and_gate.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "and_gate.bld"...

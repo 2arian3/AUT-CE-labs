@@ -1,0 +1,2 @@
+vhdl work "moore_1101_detector.vhd"
+vhdl work "moore_1101_detector_tb.vhd"

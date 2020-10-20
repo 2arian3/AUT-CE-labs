@@ -1,0 +1,10 @@
+EN four_bit_multiplexer4to1 NULL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.vhd" sub00/vhpl08 1598061434
+AR not_gate behavioral "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/not_gate.vhd" sub00/vhpl01 1598061427
+EN not_gate NULL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/not_gate.vhd" sub00/vhpl00 1598061426
+AR and_gate behavioral "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/and_gate.vhd" sub00/vhpl03 1598061429
+AR or_gate behavioral "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/or_gate.vhd" sub00/vhpl05 1598061431
+EN multiplexer4to1 NULL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer4to1.vhd" sub00/vhpl06 1598061432
+AR four_bit_multiplexer4to1 structure "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.vhd" sub00/vhpl09 1598061435
+EN or_gate NULL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/or_gate.vhd" sub00/vhpl04 1598061430
+AR multiplexer4to1 structure "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer4to1.vhd" sub00/vhpl07 1598061433
+EN and_gate NULL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/and_gate.vhd" sub00/vhpl02 1598061428

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.xst" -ofn "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/and_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm full_adder.bmm -p xc3s400-pq208-5 "and_gate.ngc" and_gate.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o and_gate_map.ncd and_gate.ngd and_gate.pcf 
+par -w -intstyle ise -ol high -t 1 and_gate_map.ncd and_gate.ncd and_gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml and_gate.twx and_gate.ncd -o and_gate.twr and_gate.pcf 

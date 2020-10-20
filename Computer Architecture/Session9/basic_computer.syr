@@ -1,0 +1,475 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: basic_computer.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "basic_computer.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "basic_computer"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : basic_computer
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/basic_computer is now defined in a different file.  It was defined in "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/BasicComputer_synthesis.vhd", and is now defined in "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd".
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/RAM.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/CPU8bits.vhd" in Library work.
+Architecture cpu_arch of Entity cpu8bits is up to date.
+Compiling vhdl file "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd" in Library work.
+Entity <basic_computer> compiled.
+Entity <basic_computer> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <basic_computer> in library <work> (architecture <behavioral>) with generics.
+	C = 5
+	Width = 8
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <behavioral>) with generics.
+	C = 5
+	Width = 8
+
+Analyzing hierarchy for entity <CPU8bits> in library <work> (architecture <cpu_arch>) with generics.
+	C = 5
+	Width = 8
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <basic_computer> in library <work> (Architecture <behavioral>).
+	C = 5
+	Width = 8
+Entity <basic_computer> analyzed. Unit <basic_computer> generated.
+
+Analyzing generic Entity <RAM> in library <work> (Architecture <behavioral>).
+	C = 5
+	Width = 8
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+Analyzing generic Entity <CPU8bits> in library <work> (Architecture <cpu_arch>).
+	C = 5
+	Width = 8
+Entity <CPU8bits> analyzed. Unit <CPU8bits> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <RAM>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/RAM.vhd".
+    Found 8-bit register for signal <Data_out>.
+    Found 8-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 66.
+    Found 256-bit register for signal <ram>.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <ram>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <CPU8bits>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/CPU8bits.vhd".
+    Found finite state machine <FSM_0> for signal <states>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 21                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit tristate buffer for signal <Data_out>.
+    Found 5-bit register for signal <adreg>.
+    Found 9-bit register for signal <akku>.
+    Found 9-bit adder for signal <akku$add0000> created at line 85.
+    Found 5-bit register for signal <pc>.
+    Found 5-bit adder for signal <pc$add0000> created at line 64.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   8 Tristate(s).
+Unit <CPU8bits> synthesized.
+
+
+Synthesizing Unit <basic_computer>.
+    Related source file is "D:/Courses/Computer  architecture/CA Lab/Codes/Session9 (2)/Session9/basic_computer.vhd".
+Unit <basic_computer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 44
+ 1-bit register                                        : 9
+ 5-bit register                                        : 2
+ 8-bit register                                        : 33
+# Multiplexers                                         : 1
+ 8-bit 32-to-1 multiplexer                             : 1
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <CPU/states/FSM> on signal <states[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ 0000  | 000000001
+ 0100  | 000100000
+ 0101  | 001000000
+ 0110  | 010000000
+ 0111  | 100000000
+ 1000  | 000000010
+ 1001  | 000000100
+ 1010  | 000001000
+ 1011  | 000010000
+--------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 283
+ Flip-Flops                                            : 283
+# Multiplexers                                         : 1
+ 8-bit 32-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2042 - Unit basic_computer: 8 internal tristates are replaced by logic (pull-up yes): N2, N3, N4, N5, N6, N7, N8, N9.
+
+Optimizing unit <basic_computer> ...
+
+Optimizing unit <RAM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block basic_computer, actual ratio is 7.
+FlipFlop CPU/states_FSM_FFd9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 293
+ Flip-Flops                                            : 293
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : basic_computer.ngr
+Top Level Output File Name         : basic_computer
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 404
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 12
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 148
+#      LUT3_D                      : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 63
+#      LUT4_D                      : 18
+#      LUT4_L                      : 17
+#      MUXCY                       : 8
+#      MUXF5                       : 64
+#      MUXF6                       : 32
+#      MUXF7                       : 16
+#      MUXF8                       : 8
+#      XORCY                       : 8
+# FlipFlops/Latches                : 293
+#      FDC                         : 22
+#      FDCE                        : 181
+#      FDE                         : 8
+#      FDP                         : 2
+#      FDPE                        : 80
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 10
+#      IBUF                        : 2
+#      OBUFT                       : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                      268  out of   3584     7%  
+ Number of Slice Flip Flops:            293  out of   7168     4%  
+ Number of 4 input LUTs:                267  out of   7168     3%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    141     7%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 293   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------+------------------------+-------+
+Control Signal                              | Buffer(FF name)        | Load  |
+--------------------------------------------+------------------------+-------+
+CPU/rst_inv(MEMORY/ram_10_Acst_inv1_INV_0:O)| NONE(CPU/adreg_0)      | 285   |
+--------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.632ns (Maximum Frequency: 150.790MHz)
+   Minimum input arrival time before clock: 6.822ns
+   Maximum output required time after clock: 10.651ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.632ns (frequency: 150.790MHz)
+  Total number of paths / destination ports: 8942 / 562
+-------------------------------------------------------------------------
+Delay:               6.632ns (Levels of Logic = 3)
+  Source:            CPU/states_FSM_FFd1 (FF)
+  Destination:       MEMORY/ram_4_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: CPU/states_FSM_FFd1 to MEMORY/ram_4_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.626   0.973  CPU/states_FSM_FFd1 (CPU/states_FSM_FFd1)
+     LUT4:I3->O            2   0.479   1.040  CPU/oe34 (CPU/oe34)
+     LUT3:I0->O           16   0.479   1.110  CPU/oe62 (r)
+     LUT3:I2->O            8   0.479   0.921  MEMORY/Data_out_and00001 (MEMORY/Data_out_and0000)
+     FDE:CE                    0.524          MEMORY/Data_out_0
+    ----------------------------------------
+    Total                      6.632ns (2.587ns logic, 4.045ns route)
+                                       (39.0% logic, 61.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1064 / 264
+-------------------------------------------------------------------------
+Offset:              6.822ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       MEMORY/Data_out_7 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to MEMORY/Data_out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.715   1.074  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            2   0.479   1.040  CPU/oe34 (CPU/oe34)
+     LUT3:I0->O           16   0.479   1.110  CPU/oe62 (r)
+     LUT3:I2->O            8   0.479   0.921  MEMORY/Data_out_and00001 (MEMORY/Data_out_and0000)
+     FDE:CE                    0.524          MEMORY/Data_out_0
+    ----------------------------------------
+    Total                      6.822ns (2.676ns logic, 4.146ns route)
+                                       (39.2% logic, 60.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 72 / 8
+-------------------------------------------------------------------------
+Offset:              10.651ns (Levels of Logic = 4)
+  Source:            CPU/states_FSM_FFd1 (FF)
+  Destination:       data<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: CPU/states_FSM_FFd1 to data<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.626   1.245  CPU/states_FSM_FFd1 (CPU/states_FSM_FFd1)
+     LUT4_D:I0->LO         1   0.479   0.123  CPU/adreg_mux0001<0>11_SW0 (N107)
+     LUT4:I3->O           14   0.479   1.179  CPU/adreg_mux0001<0>11 (N21)
+     LUT2:I1->O            8   0.479   0.921  CPU/Data_out_or00001 (CPU/Data_out_akku<7:0>_not0000_inv)
+     OBUFT:T->O                5.120          data_7_OBUFT (data<7>)
+    ----------------------------------------
+    Total                     10.651ns (7.183ns logic, 3.468ns route)
+                                       (67.4% logic, 32.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.74 secs
+ 
+--> 
+
+Total memory usage is 4518908 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

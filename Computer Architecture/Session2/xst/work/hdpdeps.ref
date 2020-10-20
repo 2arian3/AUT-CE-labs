@@ -1,0 +1,36 @@
+V3 19
+FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/and_gate.vhd" 2020/08/22.03:41:22 P.20131013
+EN work/and_gate 1598061428 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/and_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/Behavioral 1598061429 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/and_gate.vhd" \
+      EN work/and_gate 1598061428
+FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.vhd" 2020/08/22.05:21:32 P.20131013
+EN work/four_bit_multiplexer4to1 1598061434 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_bit_multiplexer4to1/structure 1598061435 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.vhd" \
+      EN work/four_bit_multiplexer4to1 1598061434 CP multiplexer4to1
+FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer4to1.vhd" 2020/08/22.05:24:00 P.20131013
+EN work/multiplexer4to1 1598061432 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer4to1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplexer4to1/structure 1598061433 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer4to1.vhd" \
+      EN work/multiplexer4to1 1598061432 CP not_gate CP and_gate CP or_gate
+FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/not_gate.vhd" 2020/08/22.03:42:11 P.20131013
+EN work/not_gate 1598061426 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/not_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1598061427 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/not_gate.vhd" \
+      EN work/not_gate 1598061426
+FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/or_gate.vhd" 2020/08/22.03:41:08 P.20131013
+EN work/or_gate 1598061430 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/or_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/Behavioral 1598061431 \
+      FL "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/or_gate.vhd" \
+      EN work/or_gate 1598061430

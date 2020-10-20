@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder_isim_beh.exe -prj C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder_beh.prj work.tb_carry_select_adder 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/multiplexer2to1.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/carry_ripple_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/carry_select_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gatelevel of entity half_adder [half_adder_default]
+Compiling architecture structure of entity full_adder [full_adder_default]
+Compiling architecture structure of entity carry_ripple_adder [carry_ripple_adder_default]
+Compiling architecture behavioral of entity multiplexer2to1 [multiplexer2to1_default]
+Compiling architecture structure of entity carry_select_adder [carry_select_adder_default]
+Compiling architecture behavior of entity tb_carry_select_adder
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable C:/Users/Aryan/Documents/University/Computer Architecture/Session4/tb_carry_select_adder_isim_beh.exe
+Fuse Memory Usage: 29652 KB
+Fuse CPU Usage: 343 ms

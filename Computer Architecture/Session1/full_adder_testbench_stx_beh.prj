@@ -1,0 +1,6 @@
+vhdl isim_temp "xor_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "half_adder.vhd"
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "full_adder_testbench.vhd"

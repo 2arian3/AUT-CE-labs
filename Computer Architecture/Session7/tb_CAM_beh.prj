@@ -1,0 +1,2 @@
+vhdl work "CAM.vhd"
+vhdl work "tb_CAM.vhd"

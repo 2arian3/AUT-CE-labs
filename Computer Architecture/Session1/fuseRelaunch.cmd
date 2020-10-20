@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder_testbench_isim_beh.exe" -prj "D:/Courses/Computer  architecture/CA Lab/Codes/Session1_FullAdder/full_adder_testbench_beh.prj" "work.full_adder_testbench" 

@@ -1,0 +1,3 @@
+vhdl work "RAM.vhd"
+vhdl work "CPU8bits.vhd"
+vhdl work "basic_computer.vhd"

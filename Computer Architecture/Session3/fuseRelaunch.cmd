@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Aryan/Documents/University/Computer Architecture/Session3/moore_1101_detector_tb_isim_beh.exe" -prj "C:/Users/Aryan/Documents/University/Computer Architecture/Session3/moore_1101_detector_tb_beh.prj" "work.moore_1101_detector_tb" 

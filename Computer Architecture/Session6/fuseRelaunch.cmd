@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg_isim_beh.exe" -prj "C:/Users/Aryan/Documents/University/Computer Architecture/Session6/tb_bcd2_7seg_beh.prj" "work.tb_bcd2_7seg" 

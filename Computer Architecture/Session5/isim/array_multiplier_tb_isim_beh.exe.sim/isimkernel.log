@@ -1,0 +1,29 @@
+Command line:
+   array_multiplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50936
+
+Sat Sep 05 23:48:01 2020
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5159.99 Meg
+
+ Total Signals          : 289
+ Total Nets             : 158
+ Total Signal Drivers   : 128
+ Total Blocks           : 59
+ Total Primitive Blocks : 42
+ Total Processes        : 127
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 641
+Total Line Count : 132
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5474.56 Meg
+
+Sat Sep 05 23:48:41 2020
+

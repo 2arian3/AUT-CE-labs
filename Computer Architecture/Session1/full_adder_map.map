@@ -1,0 +1,49 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'full_adder'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off
+-c 100 -o full_adder_map.ncd full_adder.ngd full_adder.pcf 
+Target Device  : xc3s400
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Wed Aug 19 10:38:00 2020
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s400' is a WebPack part.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Aryan, on host DESKTOP-IVVUKLF.
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc3s400'.
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       WebPack
+License path: 
+C:/.Xilinx\Xilinx.lic;C:/.Xilinx\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coreg
+en/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xil
+inxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".No such feature exists.
+Feature:       ISE
+License path: 
+C:/.Xilinx\Xilinx.lic;C:/.Xilinx\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coreg
+en/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xil
+inxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

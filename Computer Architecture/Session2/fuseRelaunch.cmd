@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer_test_bench_isim_beh.exe" -prj "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/multiplexer_test_bench_beh.prj" "work.multiplexer_test_bench" 

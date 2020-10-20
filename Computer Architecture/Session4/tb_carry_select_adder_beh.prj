@@ -1,0 +1,6 @@
+vhdl work "half_adder.vhd"
+vhdl work "full_adder.vhd"
+vhdl work "multiplexer2to1.vhd"
+vhdl work "carry_ripple_adder.vhd"
+vhdl work "carry_select_adder.vhd"
+vhdl work "tb_carry_select_adder.vhd"

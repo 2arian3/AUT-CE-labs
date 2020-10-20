@@ -1,0 +1,29 @@
+Command line:
+   carry_save_multiplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50922
+
+Sat Sep 05 23:46:17 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5160.01 Meg
+
+ Total Signals          : 201
+ Total Nets             : 80
+ Total Signal Drivers   : 74
+ Total Blocks           : 48
+ Total Primitive Blocks : 38
+ Total Processes        : 73
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 563
+Total Line Count : 78
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 5160.01 Meg
+
+Sat Sep 05 23:46:41 2020
+

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.xst" -ofn "C:/Users/Aryan/Documents/University/Computer Architecture/Session2/four_bit_multiplexer4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "four_bit_multiplexer4to1.ngc" four_bit_multiplexer4to1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o four_bit_multiplexer4to1_map.ncd four_bit_multiplexer4to1.ngd four_bit_multiplexer4to1.pcf 
